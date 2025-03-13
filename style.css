@@ -105,6 +105,9 @@ nav ul li a:hover::after {
 .about-col-1 img {
     width: 100%;
     border-radius: 15px;
+    pointer-events: none;
+    user-drag: none;
+    -webkit-user-drag: none;
 }
 
 .about-col-2 {
@@ -112,7 +115,7 @@ nav ul li a:hover::after {
 }
 
 .sub-title {
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 600;
     color: #fff;
 }
@@ -229,6 +232,9 @@ nav ul li a:hover::after {
      border-radius: 10px;
      display: block;
      transition: transform 0.5s ease-in-out;
+     pointer-events: none;
+     user-drag: none;
+     -webkit-user-drag: none;
 }
 
 .layer {
