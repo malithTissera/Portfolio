@@ -550,7 +550,7 @@ form input, form textarea {
 @media (max-width: 480px) {  
     #header {
         background-image: url(images/iPhone\ wallpaper.webp); /* Use a different image */
-        background-attachment: fixed; /* Prevent fixed background issue on mobile */
+        background-attachment: scroll;
         background-size: cover;
         background-position: center;
     }
