@@ -307,6 +307,10 @@ nav ul li a:hover::after {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .about-me {
+        max-width: 90%; /* Slightly wider for smaller screens */
+        padding: 15px;
+    }
     nav {
         flex-direction: column;
     }
@@ -627,6 +631,10 @@ form input, form textarea {
     .footer p {
         font-size: 14px; /* Adjust text size */
         margin: 5px 0;
+    }
+    .about-me {
+        max-width: 95%; /* Adjust width for very small screens */
+        padding: 10px;
     }
     
 }
