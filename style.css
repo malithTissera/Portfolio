@@ -305,42 +305,6 @@ nav ul li a:hover::after {
     background: #ff004f;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-me {
-        max-width: 90%; /* Slightly wider for smaller screens */
-        padding: 15px;
-    }
-    nav {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-
-    .header-text {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .header-text h1 {
-        font-size: 40px;
-    }
-
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-col-1, .about-col-2 {
-        flex-basis: 100%;
-        text-align: center;
-    }
-}
-
 .contact-left{
     flex-basis: 35%;
 }
@@ -541,6 +505,46 @@ form input, form textarea {
         max-width: 90%; /* Makes it slightly wider on tablets */
     }
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-me {
+        max-width: 90%; /* Slightly wider for smaller screens */
+        padding: 15px;
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header-text {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .sub-title {
+        font-size: 50px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
 
 /* General Mobile Styles */
 @media (max-width: 480px) {  
@@ -642,6 +646,11 @@ form input, form textarea {
     .about-col-2 {
         max-width: 95%; /* Ensures it fits within small screens */
         padding: 10px;
+    }
+    .sub-title {
+        font-size: 50px;
+        font-weight: 600;
+        color: #fff;
     }
     
 }
