@@ -537,6 +537,24 @@ form input, form textarea {
 
 /* General Mobile Styles */
 @media (max-width: 480px) {  
+    html, body {
+        height: 100%;
+    }
+    
+    .container {
+        min-height: 100vh; /* Ensures full viewport height */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content {
+        flex: 1; /* Pushes the footer down */
+    }
+    
+    .footer {
+        margin-top: auto; /* Keeps footer at the bottom */
+    }
+    
     .container {
         padding: 10px 5%;
     }
@@ -599,5 +617,17 @@ form input, form textarea {
         justify-content: center;
         text-align: center;
     }
+    .footer {
+        text-align: center;
+        padding: 20px 10px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .footer p {
+        font-size: 14px; /* Adjust text size */
+        margin: 5px 0;
+    }
+    
 }
 
