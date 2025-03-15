@@ -537,6 +537,9 @@ form input, form textarea {
     .social-icons {
         justify-content: center;
     }
+    .about-col-2 {
+        max-width: 90%; /* Makes it slightly wider on tablets */
+    }
 }
 
 /* General Mobile Styles */
@@ -634,6 +637,10 @@ form input, form textarea {
     }
     .about-me {
         max-width: 95%; /* Adjust width for very small screens */
+        padding: 10px;
+    }
+    .about-col-2 {
+        max-width: 95%; /* Ensures it fits within small screens */
         padding: 10px;
     }
     
