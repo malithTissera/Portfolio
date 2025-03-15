@@ -548,6 +548,13 @@ form input, form textarea {
 
 /* General Mobile Styles */
 @media (max-width: 480px) {  
+    #header {
+        background-image: url(images/phone-wallpaper.webp); /* Use a different image */
+        background-attachment: fixed; /* Prevent fixed background issue on mobile */
+        background-size: cover;
+        background-position: center;
+    }
+    
     html, body {
         height: 100%;
     }
