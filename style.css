@@ -534,3 +534,70 @@ form input, form textarea {
         justify-content: center;
     }
 }
+
+/* General Mobile Styles */
+@media (max-width: 480px) {  
+    .container {
+        padding: 10px 5%;
+    }
+
+    .header-text {
+        font-size: 20px;
+        margin-top: 40%;
+    }
+
+    .header-text h1 {
+        font-size: 35px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 10px; /* Reduce padding */
+    }
+
+    /* Fix for Service Cards */
+    .services-list {
+        grid-template-columns: 1fr;
+        justify-content: center; /* Center the cards */
+        text-align: center;
+    }
+
+    .services-list div {
+        padding: 30px; /* Adjust padding */
+        font-size: 14px;
+    }
+
+    /* Fix for Portfolio */
+    .work-list {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    /* Fix for Contact Section */
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    form input, form textarea {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
